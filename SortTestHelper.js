@@ -15,8 +15,7 @@ function generateNearlyOrderArray(count,swapTimes){
     for(let j = 0; j<swapTimes;j++){
         let posx = parseInt(Math.random() * count)
         let posy = parseFloat(Math.random() * count)
-        console.log(posx)
-        console.log(posy)
+    
         // [arr[posx],arr[posy]] = [arr[posy],arr[posx]]
     }
     return arr 
