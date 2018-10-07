@@ -8,7 +8,7 @@ class MaxHeap{
                 this.data[i+1] = arr[i]
             }
             this.count = arr.length
-           for(let k = this.count/2;i>-1;i--){
+           for(let i = this.count/2;i>-1;i--){
                this.shitDown(i)
            }     
         }
