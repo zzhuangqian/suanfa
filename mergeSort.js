@@ -1,8 +1,10 @@
 // 归并排序
 function mergeSort (arr){
+    console.time('mergeSort')
    let length = arr.length
    // 递归使用归并排序，对arr[l...r]的范围进行排序
    _mergeSort(arr,0,length-1) 
+   console.timeEnd('mergeSort')
 }
 
 function _mergeSort(arr,left,right){
